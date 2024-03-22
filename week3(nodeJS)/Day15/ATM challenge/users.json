@@ -1,0 +1,50 @@
+[
+  {
+   "accountID":"ACC1001",
+   "name":"John Doe",
+   "pin":"1234",
+   "balance":2050,
+   "transactions":
+        [
+          {
+            "type":"deposit",
+            "amount":500,
+            "date":"2024-02-01"
+          },
+          {
+            "type":"withdraw",
+            "amount":200,
+            "date":"2024-02-02"
+          },
+          {
+            "type":"deposit",
+            "amount":1000,
+            "date":"Mon Feb 12 2024 23:05:11 GMT+0100 (GMT+01:00)"
+          },
+          {
+            "type":"withdraw",
+            "amount":500,
+            "date":"Mon Feb 12 2024 23:09:35 GMT+0100 (GMT+01:00)"
+          }
+        ]
+  },
+  {
+    "accountID":"ACC1002",
+    "name":"Jane Smith",
+    "pin":"4321",
+    "balance":2200,
+    "transactions":
+      [
+        {
+          "type":"deposit",
+          "amount":1000,
+          "date":"2024-02-03"
+        },
+        {
+          "type":"withdraw",
+          "amount":300,
+          "date":"2024-02-04"
+        }
+      ]
+  }
+]
